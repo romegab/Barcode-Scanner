@@ -1,6 +1,6 @@
 //
-//  Barcode_ScannerApp.swift
-//  Barcode-Scanner
+//  BarcodeScannerApp.swift
+//  BarcodeScanner
 //
 //  Created by Ivan Stoilov on 4.02.24.
 //
@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct Barcode_ScannerApp: App {
+struct BarcodeScannerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            BarcodeScannerView()
         }
     }
 }
