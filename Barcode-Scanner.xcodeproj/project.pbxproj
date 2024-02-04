@@ -15,6 +15,7 @@
 		76B467DF2B6FE4B80065A5D4 /* Barcode_ScannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B467DE2B6FE4B80065A5D4 /* Barcode_ScannerUITests.swift */; };
 		76B467E12B6FE4B80065A5D4 /* Barcode_ScannerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B467E02B6FE4B80065A5D4 /* Barcode_ScannerUITestsLaunchTests.swift */; };
 		76B467EE2B6FE9960065A5D4 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B467ED2B6FE9960065A5D4 /* ScannerViewController.swift */; };
+		76B467F02B6FF2040065A5D4 /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B467EF2B6FF2040065A5D4 /* ScannerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		76B467DE2B6FE4B80065A5D4 /* Barcode_ScannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Barcode_ScannerUITests.swift; sourceTree = "<group>"; };
 		76B467E02B6FE4B80065A5D4 /* Barcode_ScannerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Barcode_ScannerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		76B467ED2B6FE9960065A5D4 /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		76B467EF2B6FF2040065A5D4 /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				76B467C72B6FE4B80065A5D4 /* Assets.xcassets */,
 				76B467C92B6FE4B80065A5D4 /* Preview Content */,
 				76B467ED2B6FE9960065A5D4 /* ScannerViewController.swift */,
+				76B467EF2B6FF2040065A5D4 /* ScannerView.swift */,
 			);
 			path = "Barcode-Scanner";
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				76B467C62B6FE4B60065A5D4 /* BarcodeScannerView.swift in Sources */,
+				76B467F02B6FF2040065A5D4 /* ScannerView.swift in Sources */,
 				76B467EE2B6FE9960065A5D4 /* ScannerViewController.swift in Sources */,
 				76B467C42B6FE4B60065A5D4 /* BarcodeScannerApp.swift in Sources */,
 			);
@@ -435,6 +439,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,6 +470,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
